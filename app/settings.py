@@ -13,7 +13,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 
 DEBUG = int(os.environ.get('DEBUG', default=0))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'cars-rest-apis.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'cars-restapi.herokuapp.com']
 
 #'0lv*c@3h6luk0m$9s79xb^si&58&73cr@fxiike#)*nq=afuoo'
 
